@@ -1,0 +1,32 @@
+--> npm install
+
+To install Node in your machine the above command should be run on your machine
+
+--> npm run build
+
+This is to remove unwanted nodejs files to be hosted online
+
+--> npm start
+
+This is to start the node server so that you'll be able to run the web app from your local machine 
+any change in the code will directly reflect in the below link
+
+--> http://localhost:3000/
+
+After typing npm start within 3 mins this url will open in your browser if not then copy paste this in your browser 
+
+--> npm install -g firebase-tools
+
+This is to install hosting from firebase
+
+--> firebase login
+
+Now after this command you have to login with "spotifyraghavendra@gmail.com" with password "spotify123" then allow 
+
+--> npm run build
+
+Run this command every time before deploying to remove unwanted files
+
+--> firebase deploy
+
+This will transfer your code from local to online and will be reflected in the link "https://acousticmusic.web.app"
